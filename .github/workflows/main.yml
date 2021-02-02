@@ -1,0 +1,14 @@
+name: Experiment
+on: 
+  schedule:
+  - cron: '* * * * *'
+
+jobs:
+  job1:
+    name: Debug
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify the deployed version 
+        run: |
+          curl -s http://dev.wiredcraft.edtechstar.com/ | grep Version
