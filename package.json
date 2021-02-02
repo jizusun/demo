@@ -1,19 +1,19 @@
 {
   "name": "@jizusun/github-packages-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://docs.github.com/en/packages/quickstart",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jizusun/gihub-packages-demo.git"
+    "url": "git+https://github.com/jizusun/github-packages-demo.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jizusun/gihub-packages-demo/issues"
+    "url": "https://github.com/jizusun/github-packages-demo/issues"
   },
-  "homepage": "https://github.com/jizusun/gihub-packages-demo#readme"
+  "homepage": "https://github.com/jizusun/github-packages-demo#readme"
 }
