@@ -1,8 +1,8 @@
 name: Experiment
 on: 
   workflow_dispatch:
-  schedule:
-  - cron: '* * * * *'
+  # schedule:
+  # - cron: '* * * * *'
 
 jobs:
   job1:
